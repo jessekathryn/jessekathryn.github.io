@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Object Orientation/Instance Methods"
-date:       2019-06-20 03:54:22 +0000
+date:       2019-06-19 23:54:23 -0400
 permalink:  object_orientation_instance_methods
 ---
 
@@ -16,6 +16,12 @@ Remember (especially all you 90s kids) doing the puzzles back in the day during 
 
 ![](https://images-na.ssl-images-amazon.com/images/I/81hzIGEpELL._SL1500_.jpg)
 (literally just had to type in "paper puzzle old school" in google to get non-digitalized games)
+
+![](https://images-na.ssl-images-amazon.com/images/I/81paG3dFLSL._SL1500_.jpg)
+referenced boxed games (of course Disney Princess)
+
+![](https://images-na.ssl-images-amazon.com/images/I/71kN-ecIbEL._SL1500_.jpg)
+Instance variables as pieces of the puzzle/objects building your program
 
 Instance variables are like the 50 different little puzzle pieces you move around to fit together and build the picture on the top of the box.  In code, instance variables make a program work through running methods that access each variables/objects.  They are part of the class they are written within (like the many pieces within a puzzle box)... The scope of the instance variable is confined to the object that self refers to..
 
