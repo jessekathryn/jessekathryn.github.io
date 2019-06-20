@@ -1,16 +1,11 @@
 ---
 layout: post
-title:      "Object Orientation/Instance Methods"
+title:      "Object Orientation/Instance Variables"
 date:       2019-06-19 23:54:23 -0400
 permalink:  object_orientation_instance_methods
 ---
 
-
-I get super insecure sometimes when it comes to regergitating tech definitions for Ruby or other languages, because it can seem if you mispeak once with the wrong word your 
-
-But-- in the spirit of developing and growing and as I gain confidence in my programming knowledge, I'm going to give this a shot.. to the best of my ability, as candily as possible.. because I think it's important to express what certains tools mean to you in order to help other coders who are just starting out..
-
-Ruby is amazing-- it is very clear and you can easily keep track of your objects when storing and accessing them. It makes me happy to know that I could build little methods that could later be used  in other methods and at the end of my work, it all fit together like a nice little puzzle.
+Ruby is amazing-- it is a very clear language.  You can easily keep track of your objects and variables when storing or accessing them through using specifically named instances that begin with the @ symbol. It makes me happy to know that I can build little methods that later will be used in other methods and at the end of my work, it all fit together like a nice little puzzle.
 
 Remember (especially all you 90s kids) doing the puzzles back in the day during the summer or on vacation with the family?  Or on board game nights on the weekend?
 
