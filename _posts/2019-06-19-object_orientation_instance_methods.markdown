@@ -10,10 +10,10 @@ Ruby is amazing-- it is a very clear language.  You can easily keep track of you
 Remember (especially all you 90s kids) doing the puzzles back in the day during the summer or on vacation with the family?  Or on board game nights on the weekend?
 
 ![](https://images-na.ssl-images-amazon.com/images/I/81hzIGEpELL._SL1500_.jpg)
-(literally just had to type in "paper puzzle old school" in google to get non-digitalized games)
+literally just had to type in "paper puzzle old school" in google to get non-digitalized games
 
 ![](https://images-na.ssl-images-amazon.com/images/I/81paG3dFLSL._SL1500_.jpg)
-referenced boxed games (of course Disney Princess)
+of course let's reference a Disney Princess puzzle
 
 ![](https://images-na.ssl-images-amazon.com/images/I/71kN-ecIbEL._SL1500_.jpg)
 Instance variables as pieces of the puzzle/objects building your program
