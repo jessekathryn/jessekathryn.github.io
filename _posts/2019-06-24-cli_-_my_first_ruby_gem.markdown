@@ -1,13 +1,14 @@
 ---
 layout: post
 title:      "CLI - My first Ruby Gem "
-date:       2019-06-24 04:53:04 +0000
+date:       2019-06-24 00:53:05 -0400
 permalink:  cli_-_my_first_ruby_gem
 ---
 
-**2019 Phone Updates - CNET**
+**2019 Phone Updates - CNET** 
+### Conception 
+_____________________________________________________________________________________________
 
-Conception 
 
 One and a half week later, after getting over my biggest fear so far and realizing my first project was approaching, the work begins.  
 
