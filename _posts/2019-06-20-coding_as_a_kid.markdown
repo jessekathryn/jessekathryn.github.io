@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Code Back When I was a Kid"
+title:      "Code 1990s DOS"
 date:       2019-06-20 00:36:16 -0400
 permalink:  coding_as_a_kid
 ---
