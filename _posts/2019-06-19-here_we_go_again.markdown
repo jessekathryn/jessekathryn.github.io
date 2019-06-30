@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Coding blog "
+title:      "Code Personal Notes "
 date:       2019-06-19 21:11:36 -0400
 permalink:  here_we_go_again
 ---
