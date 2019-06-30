@@ -15,7 +15,6 @@ Shape.com - Popular articles of the week in fitness/mind-and-body
 The Shape CLI will scrape data from on Shape.com.  It lists the top articles, as well as their respective attributes: date, author, url, in Fitness/mind-and-body catagory.  Shape_cli goes one level deep, prompting the user to chose an article to read.  
 
 The first running version is a test CLI, which will only dive into lifestyle.  It will ask the user if they want to read the top articles, starting with options in Fitness, Mind & Body.  
-This gem will allow you to chose a phone from a CLI
 
 Example CLI 
 
