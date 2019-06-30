@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "ShapeCli README"
-date:       2019-06-30 23:20:20 +0000
+title:      "Shape CLI README"
+date:       2019-06-30 19:20:21 -0400
 permalink:  shapecli_readme
 ---
 
