@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Coding as a kid"
-date:       2019-06-20 04:36:15 +0000
+title:      "Code Back When I was a Kid"
+date:       2019-06-20 00:36:16 -0400
 permalink:  coding_as_a_kid
 ---
 
