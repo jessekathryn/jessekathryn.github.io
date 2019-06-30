@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Shape CLI Idea/Interface "
+title:      "Shape CLI Ruby Gem "
 date:       2019-06-24 00:53:05 -0400
 permalink:  cli_-_my_first_ruby_gem
 ---
