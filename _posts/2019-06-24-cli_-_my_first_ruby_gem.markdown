@@ -18,74 +18,67 @@ The first running version is a test CLI, which will only dive into lifestyle.  I
 This gem will allow you to chose a phone from a CLI
 
 Example CLI 
+
 ```
-																																														 SHAPE CLI																																														 
+SHAPE CLI																																														 
 
 Shape CLI is your quick source to articles popular in Lifestyle!    
 
 Want tips and info on beauty, fashion, travel, health, sex, love and everything else you need to live a fuller and happier life?
 
-|| Yes || or || No ||
+Yes or  No 
 
 --> Yes
-_____________________________________________________________________________________________
 
 Enter a number from the list of latest popular topics in Lifestyle below to view details
 
-||||||| 1 |||  5 Ways to Change Your Life -- For Good
-||||||| 2 |||  What Really Helps Get Rid of Cellulite?
-||||||| 3 |||  10 Simple Rules for a Healthy Life
-||||||| 4 |||  3 Cool Winter Hairstyles
-||||||| 5 |||  7 Mind Tricks for Self-Motivation
+1.   5 Ways to Change Your Life -- For Good
+2.   What Really Helps Get Rid of Cellulite?
+3.  10 Simple Rules for a Healthy Life
+4.   3 Cool Winter Hairstyles
+5.   7 Mind Tricks for Self-Motivation
 
 --> 3
-_____________________________________________________________________________________________
 
-10 Simple Rules for a Healthy Life |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+10 Simple Rules for a Healthy Life 
 
 Five no-fail strategies to finally stick to your goals
 
 by Barbara Brody
 
 March 01, 2019
-_____________________________________________________________________________________________
 
-Are you interested in reading, "10 Simple Rules for a Healthy Life?" ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Are you interested in reading, "10 Simple Rules for a Healthy Life?"
 
-|||||| Yes ||| or |||||| No |||
+Yes or  No 
 
 --> No
 
-_____________________________________________________________________________________________
-
 Enter a number from the list of latest popular topics in Lifestyle below to view details
 
-||||||| 1 |||  5 Ways to Change Your Life -- For Good
-||||||| 2 |||  What Really Helps Get Rid of Cellulite?
-||||||| 3 |||  10 Simple Rules for a Healthy Life
-||||||| 4 |||  3 Cool Winter Hairstyles
-||||||| 5 |||  7 Mind Tricks for Self-Motivation
+1.   5 Ways to Change Your Life -- For Good
+2.   What Really Helps Get Rid of Cellulite?
+3.  10 Simple Rules for a Healthy Life
+4.   3 Cool Winter Hairstyles
+5.   7 Mind Tricks for Self-Motivation
 
 --> 5
-_____________________________________________________________________________________________
 
-7 Mind Tricks for Self-Motivation |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+7 Mind Tricks for Self-Motivation
 
 Experts reveal their time management skills to show you how to be more productive with your daily to-do's
 
 by Sara Angle
 
 December 12, 2015
-_____________________________________________________________________________________________
 
-Are you interested in reading, "7 Mind Tricks for Self-Motivation?" ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Are you interested in reading, "7 Mind Tricks for Self-Motivation?" 
 
-|||||| Yes ||| or |||||| No |||
+Yes or  No 
 
 --> Yes
-_____________________________________________________________________________________________
 
-7 Mind Tricks for Self-Motivation |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+7 Mind Tricks for Self-Motivation
 
 Experts reveal their time management skills to show you how to be more productive with your daily to-do's
 
@@ -94,32 +87,27 @@ Your alarm goes off at 6 a.m. Go to the gym, or hit snooze? A Law & Order marath
 by Sara Angle
 
 December 12, 2015
-_____________________________________________________________________________________________
 
-Enter Back to return to articles or Home to return to Shape CLI ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Enter Back to return to articles or Home to return to Shape CLI 
 
 --> Back
-_____________________________________________________________________________________________
 
 Enter a number from the list of latest popular topics in Lifestyle below to view details
 
-||||||| 1 |||  5 Ways to Change Your Life -- For Good
-||||||| 2 |||  What Really Helps Get Rid of Cellulite?
-||||||| 3 |||  10 Simple Rules for a Healthy Life
-||||||| 4 |||  3 Cool Winter Hairstyles
-||||||| 5 |||  7 Mind Tricks for Self-Motivation
+1.   5 Ways to Change Your Life -- For Good
+2.   What Really Helps Get Rid of Cellulite?
+3.  10 Simple Rules for a Healthy Life
+4.   3 Cool Winter Hairstyles
+5.   7 Mind Tricks for Self-Motivation
 
 --> Home
-_____________________________________________________________________________________________
 
-																																														 SHAPE CLI																																														 _____________________________________________________________________________________________
+SHAPE CLI		
 
---------------------------------------------------------------------------------------------------------------------
-----------------------   Shape CLI is your quick source to articles popular in Lifestyle!    ---------------------
---------------------------------------------------------------------------------------------------------------------
+Shape CLI is your quick source to articles popular in Lifestyle!    
 
 Want tips and info on beauty, fashion, travel, health, sex, love and everything else you need to live a fuller and happier life?
 
-|||||| Yes ||| or |||||| No |||
+Yes or  No 
 
 ```
