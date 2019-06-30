@@ -17,7 +17,6 @@ The Shape CLI will scrape data from on Shape.com.  It lists the top articles, as
 The first running version is a test CLI, which will only dive into lifestyle.  It will ask the user if they want to read the top articles, starting with options in Fitness, Mind & Body.  
 This gem will allow you to chose a phone from a CLI
 
-```
 Example CLI 
 _____________________________________________________________________________________________
                                                                                              
@@ -25,7 +24,7 @@ ________________________________________________________________________________
 
 --------------------------------------------------------------------------------------------------------------------
 ----------------------   Shape CLI is your quick source to articles popular in Lifestyle!    ---------------------
---------------------------------------------------------------------------------------------------------------------
+
 
 Want tips and info on beauty, fashion, travel, health, sex, love and everything else you need to live a fuller and happier life?
 
