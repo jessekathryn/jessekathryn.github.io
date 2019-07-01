@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Shape CLI Code "
+title:      "Shape CLI Executable Code "
 date:       2019-06-30 20:37:44 -0400
 permalink:  shape_cli_executable_code
 ---
@@ -28,4 +28,29 @@ drwxr-xr-x 5 jessekathryn jessekathryn 4.0K Jun
 chmod +x CLI_Name
 ```
 
-3. 
+3. Add your #shebang in CLI bin file
+
+4. Name your .call method on the new module/class in bin
+
+5. Create a Class for your CLI in your Lib
+
+6. Write your call method in your new class and fill out your controller
+
+```
+class ShapeCli::CLI 
+  
+  def call
+    puts "SHAPE CLI Shape CLI is a quick source for the latest popular topics in Lifestyle!    
+    
+    Want tips and info on beauty, fashion, travel, health, sex, love and everything else you need to live a fuller and happier life?
+
+    Yes or  No " 
+  end
+end
+```
+
+7. Test it out and watch [this video](https://www.youtube.com/watch?v=_lDExWIhYKI) to set it up step by step with Avi
+
+8. Type out your CLI for now (even though it does not actually scrape data)
+
+
