@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Shape CLI Classes/Modules"
-date:       2019-07-02 02:20:23 +0000
+date:       2019-07-01 22:20:24 -0400
 permalink:  shape_cli_classes_modules
 ---
 
@@ -16,24 +16,22 @@ class ShapeCli::CLI
   
   def home
     puts "
-                                SHAPE CLI 
+                                                                  SHAPE CLI 
  ________________________________________________________________________
-|                                                                        |
-| Shape CLI is a quick source for the latest popular topics in Lifestyle.|
-|                                                                        |
-| Want tips and info on beauty, fashion, travel, health, sex, love and   |
-| everything else you need to live a fuller and happier life?            |
-|                                                                        |
-|________________________________________________________________________|" 
+                                                                       
+Shape CLI is a quick source for the latest popular topics in Lifestyle.
+                                                                      
+Want tips and info on beauty, fashion, travel, health, sex, love and  
+everything else you need to live a fuller and happier life?            
+________________________________________________________________________" 
     menu
   end
 
 
   def menu 
     puts " ________________________________________________________________________
-|                                                                        |
-|     Y = Yes, display articles / N = No, thank you                      |
-|________________________________________________________________________|"
+                                                                  
+   Y = Yes, display articles / N = No, thank you                     ________________________________________________________________________"
      input = nil
       input = gets.strip
         case input
@@ -49,25 +47,25 @@ class ShapeCli::CLI
           puts "
                                 SHAPE CLI 
  _________________________________________________________________________
-|                                                                         |
-|     Y = Yes, display articles / N = No, thank you, let's exit  :        |
-|_________________________________________________________________________|"
+ 
+   Y = Yes, display articles / N = No, thank you, let's exit  :        
+_________________________________________________________________________"
       end        
     end
     
       
   def display_articles
    puts "
-                                Shape CLI  
+                                SHAPE CLI  
  _________________________________________________________________________   
-| Enter a number from the list of latest popular topics in Lifestyle      |
-| below to view more details                                              |
-|                                                                         |"   
+ Enter a number from the list of latest popular topics in Lifestyle    
+ below to view more details                                            
+                                                                         "   
     @article = ShapeCli::Article.popular
     @article.each.with_index(1) do |a, i|
      puts "| |#{i}|  #{a.name}"
     end
-    puts"|_________________________________________________________________________|"
+    puts"_________________________________________________________________________"
     display_details
    end
  
@@ -92,9 +90,9 @@ _________________________________________________________________________"
       elsif input == ""
         puts "
  _________________________________________________________________________
-|                                                                         |
-|  Please, enter a number between 1-5 / Type back to return to home~                
-|_________________________________________________________________________|"
+                                                                   
+ Please, enter a number between 1-5 / Type back to return to home~                
+________________________________________________________________________"
       elsif input == "exit"
         exit
       else
@@ -106,9 +104,9 @@ _________________________________________________________________________"
   def exit
     puts "
  _________________________________________________________________________
-|                                                                         |
-|  Exiting.. Thank you for using Shape CLI! Have a nice day~           
-|_________________________________________________________________________|"
+                
+  Exiting.. Thank you for using Shape CLI! Have a nice day~           
+_________________________________________________________________________"
 
  end 
 end
