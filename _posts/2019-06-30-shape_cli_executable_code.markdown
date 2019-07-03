@@ -51,6 +51,6 @@ end
 
 7. Test it out and watch [this video](https://www.youtube.com/watch?v=_lDExWIhYKI) to set it up step by step with Avi
 
-8. Type out your CLI for now (even though it does not actually scrape data)
+8. Type out your CLI for now (even though it does not actually scrape real life data)
 
 
