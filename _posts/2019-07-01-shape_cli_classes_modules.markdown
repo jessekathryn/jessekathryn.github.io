@@ -114,7 +114,8 @@ end
 
 ```
 
-2. Start one by one and build on to your data with objects created in your object class.  In this case it is "article"..
+2. Start one by one and build on to your data with objects created in your object class.  In this case it is "article" but it needs to interact with a scraper class.
+
 
 ```
 
@@ -134,7 +135,7 @@ attr_accessor :article, :name, :url, :summary, :date, :author
   article_2 = self.new
   article_2.name = "What Really Helps Get Rid of Cellulite?"
   article_2.url = "https://www.shape.com/lifestyle"
-  article_2.summary = "Let's clear this up: Cellulite is natural and normal. But what is happening inside the skin and why? Here, everything you need to know."
+  article_2.summary = "Let's clear this up: Cellulite is natural and normal. But what is happening inside   the skin and why? Here, everything you need to know."
   article_2.date = "Updated: March 13, 2019"
   article_2.author = "By Stephanie Dolgoff and Jessica Matthews "
   
