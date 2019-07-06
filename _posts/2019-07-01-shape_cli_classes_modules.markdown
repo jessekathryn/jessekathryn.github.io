@@ -165,6 +165,6 @@ attr_accessor :article, :name, :url, :summary, :date, :author
 	
 	3. When you're able to call on your objects and get your CLI running as you prompt for input, and input is accurately returned as given, then it's time to begin Scraping.
 
-:)
+
 	
 
