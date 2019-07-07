@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Connecting Classes Shape CLI"
-date:       2019-07-07 23:56:45 +0000
+title:      "Shape CLI Classes/Module"
+date:       2019-07-07 19:56:46 -0400
 permalink:  connecting_classes_shape_cli
 ---
 
