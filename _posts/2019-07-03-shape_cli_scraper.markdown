@@ -81,10 +81,3 @@ end
 
 
 
-1. iteration through the container holding each popular title
-2. the url tag
-
-TO DO:
-1. display article text in full, if interested
-2. clean up and make sure all methods are working properly 
-3. work on exit
