@@ -1,12 +1,10 @@
 ---
 layout: post
-title:      "Shape CLI Classes/Modules"
+title:      "Shape CLI "
 date:       2019-07-01 22:20:24 -0400
 permalink:  shape_cli_classes_modules
 ---
 
-
-I have a CLI class and a Shape_CLI class in my library folder inside my project, but now I need to create a class for my articles (in order to scrape the data and have it interact with my other classes).
 
 1.  Start building your CLI class and flesh out a "pretend" interface (this means no data)
 
