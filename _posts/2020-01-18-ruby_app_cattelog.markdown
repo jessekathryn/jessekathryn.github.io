@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Ruby App Cattelog"
-date:       2020-01-19 00:55:24 +0000
+date:       2020-01-18 19:55:25 -0500
 permalink:  ruby_app_cattelog
 ---
 
@@ -16,7 +16,7 @@ The app isn't finished just yet and the idea of created reports or generating a 
 
 Sign up/About
 
-![](https://ibb.co/72Dv9sL)
+https://ibb.co/72Dv9sL
 
 
 
