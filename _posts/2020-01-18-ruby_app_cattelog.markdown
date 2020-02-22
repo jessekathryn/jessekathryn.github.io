@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Ruby App Cattelog"
+title:      "Ruby on Rails App: Cattlelog"
 date:       2020-01-18 19:55:25 -0500
 permalink:  ruby_app_cattelog
 ---
@@ -14,8 +14,10 @@ The creation of this ruby app made me extremely excited for the future.  After b
 
 The app isn't finished just yet and the idea of created reports or generating a CRM for my dad has made me grateful for this program.   My current landing page is below!
 
+This is my landing page.  I used boostrap with my ruby on rails app and html, as well as, CSS (of course).  In the near future, there will be a blog post on how I did this and a few tips to get around painstaking debugging hours.. especially if you are new to javascript. Implementing the simple front-end of JavaScript into my project provided a ton of confidence and esteem when moving to the JavaScript section (where I currently am).
+
 ![](https://i.imgur.com/j1SKKbe.png)
 
-This is my landing page.  I used boostrap with my ruby on rails app and html, as well as, CSS (of course).  In the near future, there will be a blog post on how I did this and a few tips to get around painstaking debugging hours.. especially if you are new to javascript. Implementing the simple front-end of JavaScript into my project provided a ton of confidence and esteem when moving to the JavaScript section (where I currently am).
+
 
 
