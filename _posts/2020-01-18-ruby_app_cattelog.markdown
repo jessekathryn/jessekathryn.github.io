@@ -14,9 +14,7 @@ The creation of this ruby app made me extremely excited for the future.  After b
 
 The app isn't finished just yet and the idea of created reports or generating a CRM for my dad has made me grateful for this program.   My current dashboard is below!
 
-Sign up/About
-
-https://ibb.co/72Dv9sL
+![](https://i.imgur.com/j1SKKbe.png)
 
 
 
