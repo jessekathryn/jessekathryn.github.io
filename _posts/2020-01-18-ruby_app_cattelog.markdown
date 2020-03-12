@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Ruby on Rails App: Cattlelog"
+title:      "CattleLog Ruby on Rails App"
 date:       2020-01-18 19:55:25 -0500
 permalink:  ruby_app_cattelog
 ---
