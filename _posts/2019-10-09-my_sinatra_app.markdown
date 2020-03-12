@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "My Sinatra App"
+title:      "Cattlelog Sinatra App Prep"
 date:       2019-10-09 23:10:46 -0400
 permalink:  my_sinatra_app
 ---
