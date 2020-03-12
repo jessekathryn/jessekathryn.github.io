@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "JavaScript Stretch Goals"
+title:      "CattleLog JavaScript Stretch Goals"
 date:       2020-03-11 23:58:29 -0400
 permalink:  front-end_stretch_goals
 ---
