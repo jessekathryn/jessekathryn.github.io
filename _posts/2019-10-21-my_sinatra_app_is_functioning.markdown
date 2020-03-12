@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "My Sinatra App is functioning!"
-date:       2019-10-22 01:44:48 +0000
+title:      "Sinatra App"
+date:       2019-10-21 21:44:48 -0400
 permalink:  my_sinatra_app_is_functioning
 ---
 
