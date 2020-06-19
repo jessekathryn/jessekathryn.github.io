@@ -1,0 +1,22 @@
+---
+layout: post
+title:      "numIslands #200"
+date:       2020-06-19 21:36:38 +0000
+permalink:  numislands_200
+---
+
+
+Since I am in job seeking mode, I am constantly going through a lot of problems on the LeetCode website.  I decided to do the daily challenges and felt I'd write a post about the problem numIslands.
+
+This is a harder question and it is commonly known to be a Google Interview question.
+
+To start the link to the question is here:
+
+[NumIslands](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3302/)
+
+The best way to start this is to color each island and then return the count or you can take the approach of traversing the map, mark the island and then count them as visited (which could also be quantified as a color or the color).  Here is a great video explain the DFS and BFS search of the points.
+
+[Tech Dose](https://www.youtube.com/watch?v=__98uL6wst8) is a great channel if you need to review how to solve problems in the 30 day challenges!
+
+
+
