@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Data Structure Practice"
-date:       2020-06-26 21:56:59 +0000
+date:       2020-06-26 17:57:00 -0400
 permalink:  data_structure_practice
 ---
 
