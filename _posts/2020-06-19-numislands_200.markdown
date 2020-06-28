@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "numIslands #200"
-date:       2020-06-19 21:36:38 +0000
+date:       2020-06-19 17:36:39 -0400
 permalink:  numislands_200
 ---
 
@@ -10,13 +10,114 @@ Since I am in job seeking mode, I am constantly going through a lot of problems 
 
 This is a harder question and it is commonly known to be a Google Interview question.
 
-To start the link to the question is here:
+Check the question out here:
 
 [NumIslands](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3302/)
 
-The best way to start this is to color each island and then return the count or you can take the approach of traversing the map, mark the island and then count them as visited (which could also be quantified as a color or the color).  Here is a great video explain the DFS and BFS search of the points.
+The best way to start this is to color each island and then return the count or you can take the approach of traversing the map, mark the island and then count them as visited (which could also be quantified as a color or the color).  Here is a great video explain the DFS and BFS search of the points, as well.
 
 [Tech Dose](https://www.youtube.com/watch?v=__98uL6wst8) is a great channel if you need to review how to solve problems in the 30 day challenges!
 
+This particular solution is simple and the explaination points at the most essential parts in the code that push traversing *forward* with minumum use of space.  
+
+```
+Given a 2d grid map of ‘1’s (land) and ‘0’s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+Example 1:
+
+Input:
+
+11110
+11010
+11000
+00000
+Output: 1
+
+Example 2:
+
+Input:
+
+11000
+11000
+00100
+00011
+Output: 3
+```
+
+In JavaScript, we know how to traverse an array with for loop at x and nested loop at y and set the condition to if === '1':
+
+```
+for(let x = 0; x < grid.length; x++) {
+    for(let y = 0; y < grid[x].length; y++) {
+      if(grid[x][y] === '1') {
+        // count the island
+      }
+    }
+  }
+```
+
+To count the island, we need a counter, but we also need to ensure that we only count it *once*:
+
+```
+let count = 0;
+for(let x = 0; x < grid.length; x++) {
+    for(let y = 0; y < grid[x].length; y++) {
+      if(grid[x][y] === '1') {
+         count++;
+        // mark the island as already counted (++ on to next)
+      }
+    }
+  }
+```
+
+Let's keep track of which squares have been visited already, which can be done with a 2D boolean array that matches the size of the passed-in map. *(Still another way might be to just copy the map when it’s received, but that uses more space than the boolean approach.)* 
 
 
+```
+let markIsland = function(grid, x, y, visited) {
+  if(x < 0 || x > grid.length - 1 || y < 0 || y > grid[x].length - 1) {
+    return;
+  }
+  if(visited[x][y] === true) {
+    return;
+  }
+  visited[x][y] = true;
+  if(grid[x][y] === '0') {
+    return;
+  }
+  markIsland(grid, x - 1, y, visited);
+  markIsland(grid, x + 1, y, visited);
+  markIsland(grid, x, y - 1, visited);
+  markIsland(grid, x, y + 1, visited);
+};
+```
+
+Almost done.  
+
+Now, let's make sure to add out markIsland function to our numIsland function.
+
+```
+ let visited = [];
+  for(let i = 0; i < grid.length; i++) {
+    visited[i] = [];
+  }
+  let count = 0;
+  for(let x = 0; x < grid.length; x++) {
+    for(let y = 0; y < grid[x].length; y++) {
+      if(!visited[x][y] && grid[x][y] === '1') {
+        count++;
+        markIsland(grid, x, y, visited);
+      }
+      visited[x][y] = true;
+    }
+  }
+  return count;
+};
+```
+
+**The final solution is just these three steps:**
+
+1. Traverse the map.
+2. Count any islands.
+3. Mark them as already visited so you don’t count twice
+
+*See the Pen LC 200. Number of Islands by Scott Shipp (@scottashipp) on CodePen.*
